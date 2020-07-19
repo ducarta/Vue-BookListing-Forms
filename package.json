@@ -7,6 +7,10 @@
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
+    "t1":"npm run test:module1",
+    "t2":"npm run test:module2",
+    "t3":"npm run test:module3",
+    "t4":"npm run test:module4",
     "test:module1": "cross-env NODE_ENV=test mocha 'test/unit/mocha/part1/*.spec.js' || true",
     "test:module2": "cross-env NODE_ENV=test mocha 'test/unit/mocha/part2/*.spec.js' || true",
     "test:module3": "cross-env NODE_ENV=test mocha 'test/unit/mocha/part3/*.spec.js' || true",
