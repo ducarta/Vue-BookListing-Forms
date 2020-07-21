@@ -31,6 +31,7 @@ export default {
   methods: {
     bookSubmit(bookData) {
       this.$emit("addBook", bookData);
+      event.target.reset();
     }
   }
 };
